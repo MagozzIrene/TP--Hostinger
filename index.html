@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <title>Hostinger</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav nav--desktop-only" aria-label="Menú principal">
+            <div class="navigation-section">
+                <div class="navigation-section__logo">
+                    <a href="/">
+                        <img src="./images/hostinger-logo.svg" alt="Logo de Hostinger" width="147" height="30">
+                    </a>
+                </div>
+                <div class="navigation-section__main_menu">
+                    <div class="navigation-section__star">
+                        <ul class="navigation-section__menu">
+                            <li class="navigation-section__menu-item">
+                                <a href="#" onclick="return false;">Precios</a>
+                            </li>
+                            <li class="navigation-section__menu-item">
+                                <a href="#" onclick="return false;">Servicios<span><img class="h-svgo-icon" src="./images/arrow-icon.svg" alt="Icono de flecha"></span></a>
+                            </li>
+                            <li class="navigation-section__menu-item">
+                                <a href="#" onclick="return false;">Explorar<span><img class="h-svgo-icon" src="./images/arrow-icon.svg" alt="Icono de flecha"></span></a>
+                            </li>
+                            <li class="navigation-section__menu-item">
+                                <a href="#" onclick="return false;">Soporte<span><img class="h-svgo-icon" src="./images/arrow-icon.svg" alt="Icono de flecha"></span></a>
+                            </li>
+                            <li class="navigation-section__menu-item">
+                                <a href="#" onclick="return false;">Horizons<span class="highlighter">NUEVO</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navigation-section__end">
+                        <div class="navigation-section__language-selector">
+                            <a href="#" onclick="return false;" class="navigation-section__language">
+                                <div class="navigation-section__flag">
+                                    <img src="./images/flag-arg.png" alt="Bandera de Argentina">
+                                </div>
+                                <span class="navigation-section__current-language">Español</span>
+                            </a>
+                        </div>
+                        <div class="navigation-section__login">
+                            <a href="#" onclick="return false;" class="login">Ingresar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav nav--non-desktop" aria-label="Menú móvil">
+            <div class="navigation-section navigation-section--mobile">
+                <div class="navigation-section__logo">
+                    <a href="/">
+                        <img src="./images/hostinger-logo.svg" alt="Logo de Hostinger" width="147" height="30">
+                    </a>
+                </div>
+                <button class="navigation-section__toggle" aria-expanded="false" aria-controls="mobileMenu">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+            <div class="mobile-menu" id="mobileMenu">
+                <ul class="mobile-menu__list">
+                    <li><a href="#" onclick="return false;">Precios</a></li>
+                    <li><a href="#" onclick="return false;">Servicios</a></li>
+                    <li><a href="#" onclick="return false;">Explorar</a></li>
+                    <li><a href="#" onclick="return false;">Soporte</a></li>
+                    <li><a href="#" onclick="return false;">Horizons</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="website-benefits" aria-labelledby="website-benefits__heading">
+            <div class="website-benefits__container">
+                <div class="website-benefits__features top-left">
+                    <div class="website-benefits__header">
+                        <h1 id="website-benefits__heading">
+                            Todo lo que necesitás para crear una web
+                        </h1>
+                        <p class="features">
+                            Hasta <span class="overline-discount">72%</span> off en hosting
+                            + Creador de webs
+                        </p>
+                    </div>
+                    <div class="website-benefits__list">
+                        <ul class="custom-list">
+                            <li>
+                                <i class="bi bi-check2" aria-hidden="true"></i>Dominio gratis<span class="primary-color"><i class="bi bi-question-circle"></i></span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check2" aria-hidden="true"></i>Migración gratis<span class="primary-color"><i class="bi bi-question-circle"></i></span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check2" aria-hidden="true"></i>Atención al cliente 24/7
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="website-benefits__price">
+                        <p>AR$ <span class="price">3.899</span>/mes</p>
+                    </div>
+                    <div>
+                        <p class="warrant-period">+2 meses gratis</p>
+                    </div>
+                    <div class="website-benefits__buttons-container">
+                        <a href="#" onclick="return false;" class="button" role="button">Empezar ya</a>
+                        <div class="timer-button" id="countdown">00:00:00</div>
+                    </div>
+                    <div class="promo">
+                        <p>
+                            <i class="bi bi-shield-check"></i>Garantía de 30 días: probalo sin cargo
+                        </p>
+                    </div>
+                </div>
+                <div class="website-benefits__img-container bottom-right">
+                    <img src="./images/features.png" alt="Todo lo que necesitás para crear una web">
+                </div>
+            </div>
+        </section>
+        <section class="migration" aria-labelledby="migration-heading">
+            <div class="migration-section">
+                <div class="migration-section__intro">
+                    <h2 id="migration-heading">Migración de sitios web simplificada</h2>
+                    <p>
+                        ¿Actualmente alojás tu sitio con otro proveedor? Unite a los más
+                        de 3 millones de propietarios de webs que accedieron a un hosting
+                        rápido, seguro y confiable aquí en Hostinger. Nuestro equipo de
+                        expertos se puede encargar de la migración mientras tu sitio
+                        permanece en funcionamiento en todo momento. Sí, leíste bien: sin
+                        tiempo de inactividad, sin pérdida de datos y sin problemas.
+                    </p>
+                </div>
+                <div class="migration-section__features">
+                    <div class="features__list">
+                        <div class="feature-card">
+                            <div class="feature-card__icon-wrapper">
+                                <div class="feature-card__icon">
+                                    <i class="bi bi-list-task" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="feature-card__title">
+                                <p>3 simples pasos</p>
+                            </div>
+                            <div class="feature-card__description">
+                                <p>
+                                    Solo tenés que elegir tu plan, completar el formulario de
+                                    solicitud de migración y enviarlo. Eso es todo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon-wrapper">
+                                <div class="feature-card__icon">
+                                    <i class="bi bi-lightning-charge" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="feature-card__title">
+                                <p>Rápido y seguro</p>
+                            </div>
+                            <div class="feature-card__description">
+                                <p>
+                                    El 95% de las webs migran en menos de 20 minutos. El 5%
+                                    restante, más rápido que el promedio del sector ¡Y tu sitio
+                                    web permanece activo todo el tiempo!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon-wrapper">
+                                <div class="feature-card__icon">
+                                    <i class="bi bi-check-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="feature-card__title">
+                                <p>Gratis</p>
+                            </div>
+                            <div class="feature-card__description">
+                                <p>
+                                    No importa si tenés una web o 100, migrarlas a Hostinger es
+                                    gratis con todos nuestros planes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <a href="#" onclick="return false;" class="button" role="button">Empezar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-header">
+                <div class="footer-logo">
+                    <a href="#" aria-label="Hostinger - Volver al inicio">
+                        <img src="./images/hostinger-logo-footer.svg" alt="Hostinger - Inicio" width="147" height="30">
+                    </a>
+                </div>
+                <div class="social-icons">
+                    <h2 class="visually-hidden">Redes sociales</h2>
+                    <a href="#" onclick="return false;" aria-label="Linkedin"><img src="./images/linkedin.svg" alt="Logo Linkedin"></a>
+                    <a href="#" onclick="return false;" aria-label="Facebook"><img src="./images/fb.svg" alt="Logo Facebook"></a>
+                    <a href="#" onclick="return false;" aria-label="Instagram"><img src="./images/instagram.svg" alt="Logo Instagram"></a>
+                    <a href="#" onclick="return false;" aria-label="Twitter/X"><img src="./images/x.svg" alt="Logo X"></a>
+                    <a href="#" onclick="return false;" aria-label="YouTube"><img src="./images/youtube.svg" alt="Logo YouTube"></a>
+                </div>
+            </div>
+            <div class="payment-and-legal-container">
+                <div class="paying-methods" aria-labelledby="payment-methods-heading">
+                    <h3 id="payment-methods-heading" class="visually-hidden">
+                        Métodos de pago aceptados
+                    </h3>
+                    <div class="paying-methods__image-container" role="group" aria-label="Tarjetas aceptadas">
+                        <img src="./images/visa.png" alt="Visa" class="paying-methods__image">
+                        <img src="./images/master-card.png" alt="Master Card" class="paying-methods__image">
+                        <img src="./images/amex.png" alt="Amex" class="paying-methods__image">
+                        <img src="./images/diner-club.png" alt="Diner Club" class="paying-methods__image">
+                        <img src="./images/naranja.png" alt="Naranja" class="paying-methods__image">
+                        <img src="./images/cordial.png" alt="Cordial" class="paying-methods__image">
+                        <img src="./images/cordobesa.png" alt="Cordobesa" class="paying-methods__image">
+                        <a href="#" onclick="return false;" class="more-payments">y más</a>
+                    </div>
+                </div>
+                <div class="links-container">
+                    <ul class="legal-links" aria-label="Enlaces legales">
+                        <li>
+                            <a href="#" onclick="return false;">Política de privacidad</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false;">Política de reembolso</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false;">Términos de servicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="footer-copyright__text">
+                    <p>
+                        © 2004-2025 Hostinger. Servicios de hosting web premium, cloud,
+                        VPS y registro de dominios.
+                    </p>
+                </div>
+                <div class="iva-disclaimer">
+                    <p>Los precios se muestran sin IVA</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed-button">
+        <a href="#" onclick="return false;">
+            <img src="./images/kodee.svg" alt="Preguntarle a Kodee">
+            <span>Preguntarle a Kodee</span>
+        </a>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
